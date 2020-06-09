@@ -1,0 +1,19 @@
+{
+  "name": "npm-with-single-dep",
+  "version": "1.0.0",
+  "description": "npm project with 1 dep + snyk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snyk-fixtures/npm-with-single-dep.git"
+  },
+  "dependencies": {
+    "lodash": "4.17.12",
+    "snyk": "1.337.0"
+  },
+  "scripts": {
+    "test": "snyk test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
+}
