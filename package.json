@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "lodash": "4.17.12",
-    "snyk": "1.337.0"
+    "snyk": "1.518.0"
   },
   "scripts": {
     "test": "snyk test",
