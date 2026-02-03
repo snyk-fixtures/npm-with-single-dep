@@ -7,8 +7,8 @@
     "url": "git+https://github.com/snyk-fixtures/npm-with-single-dep.git"
   },
   "dependencies": {
-    "lodash": "4.17.12",
-    "snyk": "1.337.0"
+    "lodash": "4.17.21",
+    "snyk": "1.996.0"
   },
   "scripts": {
     "test": "snyk test",
